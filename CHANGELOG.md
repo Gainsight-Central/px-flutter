@@ -1,34 +1,37 @@
-## Release versions
+# Changelog
 
-- [1.13.1](#1_13_1)
-- [1.13.0](#1_13_0)
-- [1.12.0](#1_12_0)
-- [1.11.0](#1_11_0)
-- [1.3.0](#1_3_0)
-- [1.2.0](#1_2_0)
-- [1.1.0](#1_1_0)
+## 1.13.1
 
-<a name="1_13_1">**1.13.1 Release:**</a>
- - Removed android depricated V1 APIs.
- 
-<a name="1_13_0">**1.13.0 Release:**</a>
- - Updated Flutter version
+- Removed Android deprecated V1 APIs.
 
-<a name="1_12_0">**1.12.0 Release:**</a>
- - Android - moving packageId from manifest.xml to namespace on build.gradle
- - updating Android SDK library
+## 1.13.0
 
-<a name="1_11_0">**1.11.0 Release:**</a>
- - Addding support to up to date Dart and Flutter version
+- Updated Flutter version.
 
-<a name="1_3_0">**1.3.0 Release:**</a>
- - APP-18417 - Adding support to new feature mapping API
- - on automatic screen events - using title if exists. if not then using manifest label
+## 1.12.1
 
-<a name="1_2_0">**1.2.0 Release**</a>
- - Enabling TAP tracking (default disabled)
+- Removed deprecated API from the Android plugin.
 
-<a name="1_1_0">**1.1.0 Release**</a>
- - First Support for Flutter
- - Adding ExceptionHandler interface to get notify in case of error
- - Adding api key validation (reports on log. client will be disabled)
+## 1.12.0
+
+- Android - moved `packageId` from `manifest.xml` to `namespace` in `build.gradle`.
+- Updated Android SDK library.
+
+## 1.11.0
+
+- Added support for up-to-date Dart and Flutter versions.
+
+## 1.3.0
+
+- Added support for the new feature mapping API.
+- On automatic screen events - use the title if it exists, otherwise use the manifest label.
+
+## 1.2.0
+
+- Enabled TAP tracking (disabled by default).
+
+## 1.1.0
+
+- First support for Flutter.
+- Added `ExceptionHandler` interface to be notified in case of an error.
+- Added API key validation (reported in the log; the client will be disabled).
