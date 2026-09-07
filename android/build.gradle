@@ -18,7 +18,7 @@ rootProject.allprojects {
         mavenCentral()
 
         maven {
-            url "https://github.com/Gainsight/px-android/raw/main/"
+            url "https://github.com/Gainsight-Central/px-android/raw/main/"
         }
     }
 }
